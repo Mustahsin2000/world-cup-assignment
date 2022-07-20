@@ -145,9 +145,7 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    column-gap: 15px;
-    width: 900px;
-    margin-left: 230px;
+    column-gap: 10px;
     
 }
 .fa-clock{
