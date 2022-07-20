@@ -147,9 +147,7 @@ main{
     margin-top: 100px;
     column-gap: 15px;
     width: 900px;
-    margin-left: 230px;
-    
-    
+    margin-left: 230px; 
 }
 .fa-clock{
     background-color: #fff;
