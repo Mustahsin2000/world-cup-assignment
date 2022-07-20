@@ -143,7 +143,8 @@ header{
 }
 main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 100px;
     column-gap: 15px;
     width: 900px;
