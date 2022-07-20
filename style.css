@@ -148,6 +148,7 @@ main{
     column-gap: 15px;
     width: 900px;
     margin-left: 200px;
+    align-items: center;
     
 }
 .fa-clock{
