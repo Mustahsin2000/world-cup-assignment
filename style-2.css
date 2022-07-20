@@ -22,7 +22,7 @@ header{
     margin-top: 40px;
 }
 .header-left h1{
-    font-size: 60px;
+    font-size: 70px;
     color: white;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
@@ -89,7 +89,7 @@ header{
    background-color: white;
    margin-left: 20px; 
 }
-.upcoming-match .button-blog{
+.upcoming-match  .match{
     width:  150px;
     height: 30px;
    padding: 10px 30px;
@@ -97,6 +97,7 @@ header{
    margin-left: 20px;
    background-color: limegreen;
    color: white;
+   border: none;
 }
 .upcoming-match-element a{
     margin-top: 20px;
@@ -106,6 +107,10 @@ header{
     border-radius: 10px;
     font-weight: 600;
     color: #000000;
+}
+.upcoming-match-element .button-blog{
+    background-color: white;
+    padding: 13px 30px;
 }
 .upcoming-match-element{
     padding: 10px 0px;
@@ -133,6 +138,12 @@ header{
 }
 .match-item{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.match-item img{
+    width: 100%;
 }
 .matches{
     display: grid;
@@ -145,8 +156,6 @@ main{
     justify-content: center;
     margin-top: 100px;
     column-gap: 40px;
-    width: 80%;
-    margin-left: 165px;
 }
 .fa-clock{
     background-color: #fff;
@@ -154,7 +163,7 @@ main{
 .match{
     border: 2px solid whitesmoke;
     border-radius: 10px;
-    padding: 1px;
+    padding: 50px;
 }
 .match-item{
     width: 100%;
@@ -165,10 +174,23 @@ main{
     font-size: 15px;
     font-weight: 800;
 }
-
-
-
-
+.match-info h2{
+   text-align: center;
+   font-weight: 800;
+}
+.match-info p{
+    text-align: center;
+}
+.match{
+   padding: 40px 40px;
+}
+.match-item h2{
+    padding: 15px;
+    font-weight: bold;
+}
+.match-info-p{
+    color: gray;
+}
 /* Footer */
 footer{
     width: 100%;
