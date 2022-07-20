@@ -2,16 +2,18 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 header{
    display: flex;
    justify-content: center;
    margin-top: 50px;
+   width: 100%;
 }
 .header{
     display: flex;  
     justify-content: space-around; 
-    width: 80%;
+    width: 1200px;
     background-color: #000000;
     background-image: linear-gradient(315deg, #181717 0%, #1f1e1e 74%);
     border-radius: 20px;
@@ -114,7 +116,7 @@ header{
     display: flex;
     align-items: center;
     justify-content:left;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 .match-info a{
     border: 1px solid gray;
@@ -138,15 +140,16 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 10px;
-    column-gap: 30px;
+    column-gap: 05px;
 }
 main{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    column-gap: 40px;
-    width: 80%;
-    margin-left: 165px;
+    column-gap: 15px;
+    width: 900px;
+    margin-left: 210px;
+    
 }
 .fa-clock{
     background-color: #fff;
@@ -165,7 +168,6 @@ main{
     font-size: 15px;
     font-weight: 800;
 }
-
 
 
 
@@ -208,3 +210,4 @@ footer{
 .footer-all{
     padding: 30px 30px;
 }
+
